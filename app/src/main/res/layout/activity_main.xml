@@ -14,5 +14,13 @@
         class="com.zzazzu.fragment_200920.FirstFragment"
         tools:layout="@layout/frament_test" />
 
+    <fragment
+        android:tag="secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        class="com.zzazzu.fragment_200920.SecondFragment"
+        tools:layout="@layout/activity_fragment_second" />
+
+
 
 </LinearLayout>
