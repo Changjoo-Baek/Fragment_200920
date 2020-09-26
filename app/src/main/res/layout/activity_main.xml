@@ -7,20 +7,41 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:tag="myFirstFrag"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.zzazzu.fragment_200920.FirstFragment"
-        tools:layout="@layout/frament_test" />
+        android:layout_height="match_parent" >
 
-    <fragment
-        android:tag="secondFrag"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        class="com.zzazzu.fragment_200920.SecondFragment"
-        tools:layout="@layout/activity_fragment_second" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
+
+            <fragment
+                android:tag="myFirstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.zzazzu.fragment_200920.FirstFragment"
+                tools:layout="@layout/frament_test" />
+
+            <fragment
+                android:tag="secondFrag"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                class="com.zzazzu.fragment_200920.SecondFragment"
+                tools:layout="@layout/activity_fragment_second" />
+
+            <fragment
+                android:tag="myFirstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.zzazzu.fragment_200920.FirstFragment"
+                tools:layout="@layout/frament_test" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 
 </LinearLayout>
